@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GIT\\Kafka\\Backend\\Kafka.Services.Consumer\\Kafka.Services.Consumer.csproj": {}
+  },
+  "projects": {
+    "C:\\GIT\\Kafka\\Backend\\Kafka.Domain.Core\\Kafka.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain.Core\\Kafka.Domain.Core.csproj",
+        "projectName": "Kafka.Domain.Core",
+        "projectPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain.Core\\Kafka.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\diogol\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diogol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GIT\\Kafka\\Backend\\Kafka.Domain\\Kafka.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain\\Kafka.Domain.csproj",
+        "projectName": "Kafka.Domain",
+        "projectPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain\\Kafka.Domain.csproj",
+        "packagesPath": "C:\\Users\\diogol\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diogol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\GIT\\Kafka\\Backend\\Kafka.Domain.Core\\Kafka.Domain.Core.csproj": {
+                "projectPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain.Core\\Kafka.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GIT\\Kafka\\Backend\\Kafka.Services.Consumer\\Kafka.Services.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GIT\\Kafka\\Backend\\Kafka.Services.Consumer\\Kafka.Services.Consumer.csproj",
+        "projectName": "Kafka.Services.Consumer",
+        "projectPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Services.Consumer\\Kafka.Services.Consumer.csproj",
+        "packagesPath": "C:\\Users\\diogol\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Services.Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diogol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\GIT\\Kafka\\Backend\\Kafka.Domain\\Kafka.Domain.csproj": {
+                "projectPath": "C:\\GIT\\Kafka\\Backend\\Kafka.Domain\\Kafka.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

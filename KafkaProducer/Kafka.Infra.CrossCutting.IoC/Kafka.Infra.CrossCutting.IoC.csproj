@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kafka.Infra.CrossCutting.Identity\Kafka.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\Kafka.Infra.Data\Kafka.Infra.Data.csproj" />
+    <ProjectReference Include="..\Kafka.Infra.CrossCutting.Kafka\Kafka.Infra.CrossCutting.Kafka.csproj" />
+  </ItemGroup>
+
+</Project>

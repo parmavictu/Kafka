@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\diogol\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\diogol\\.nuget\\packages"
+    ]
+  }
+}

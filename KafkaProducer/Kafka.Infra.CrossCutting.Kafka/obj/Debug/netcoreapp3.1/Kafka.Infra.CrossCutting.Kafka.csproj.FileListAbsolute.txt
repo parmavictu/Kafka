@@ -1,0 +1,8 @@
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\bin\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.deps.json
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\bin\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.dll
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\bin\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.pdb
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\obj\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.csprojAssemblyReference.cache
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\obj\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.AssemblyInfoInputs.cache
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\obj\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.AssemblyInfo.cs
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\obj\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.dll
+C:\GIT\Kafka\KafkaProducer\Kafka.Infra.CrossCutting.Kafka\obj\Debug\netcoreapp3.1\Kafka.Infra.CrossCutting.Kafka.pdb

@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
+        {
+            "name": ".NET Core Launch (API Producer)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "launchBrowser": {
+                "enabled": true,
+                "args": "${auto-detect-url}",
+                "windows": {
+                    "command": "cmd.exe",
+                    "args": "/C start ${auto-detect-url}/swagger"
+                }
+            },
+            "program": "${workspaceFolder}/Kafka.Services.API/bin/Debug/netcoreapp3.1/Kafka.Services.API.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "^\\s*Now listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "CONNECTION_STRING": "mongodb://localhost:27017/Kafka",
+                "TOKEN_SERVER": "KafkaServer",
+                "MINUTES_VALID": "300",
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "URL_SERVER": "http://localhost:5001",
+                "CONSUMER_GROUP_ID": "test-consumer-group",
+                "BOOTSTRAP_SERVERS": "localhost:9092",
+                "TOPIC": "student_topic"
+            }
+        },
+        {
+            "name": ".NET Core Launch Consumer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Kafka.Services.Consumer/bin/Debug/netcoreapp3.1/Kafka.Services.Consumer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
